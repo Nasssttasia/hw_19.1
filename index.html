@@ -37,17 +37,14 @@
         main {
             display: flex;
             flex-wrap: nowrap;
-            height: 100vh;
             height: -webkit-fill-available;
-            max-height: 100vh;
-            overflow-x: auto;
+            overflow-x: scroll;
             overflow-y: hidden;
         }
 
         .b-example-divider {
             flex-shrink: 0;
             width: 1.5rem;
-            height: 100vh;
             background-color: rgba(0, 0, 0, .1);
             border: solid rgba(0, 0, 0, .15);
             border-width: 1px 0;
@@ -312,7 +309,7 @@
             </div>
         </main>
 
-<!--
+
         <main class="row">
             <div class="row text-center">
                 <div class="col-12">
@@ -337,7 +334,7 @@
                                     <td>500</td>
                                     <td>2</td>
                                     <td>1000</td>
-                                    <td>Новый</td>
+                                    <td> <span class="alert alert-primary p-1 m-1">Новый</span></td>
 
                                 </tr>
 
@@ -347,7 +344,7 @@
                                 <td>600</td>
                                 <td>3</td>
                                 <td>1800</td>
-                                <td>Обработка</td>
+                                <td> <span class="alert alert-warning p-1 m-1">Обработка</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
@@ -355,14 +352,14 @@
                                 <td>700</td>
                                 <td>4</td>
                                 <td>2800</td>
-                                <td>Обработан</td>
+                                <td> <span class="alert alert-success p-1 m-1">Обработан</span></td>
                             <tr>
                                 <th scope="row">4</th>
                                 <td>Товар 4</td>
                                 <td>800</td>
                                 <td>5</td>
                                 <td>4000</td>
-                                <td>Отмена</td>
+                                <td> <span class="alert alert-danger p-1 m-1">Отмена</span></td>
                             </tr>
                             </tr>
                           </tbody>
@@ -374,7 +371,7 @@
                 </div>
             </div>
         </main>
--->
+
 
         <main class="row">
             <div class="row text-center">
